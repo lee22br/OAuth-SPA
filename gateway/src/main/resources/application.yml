@@ -9,7 +9,7 @@ spring:
         registration:
           keycloak:
             client-id: spring-boot-oauth-spa
-            client-secret: Y1FzBDlY7Ywpse28CI7gJafg04fxUe4G
+            client-secret: ${CLIENT-SECRET}
             scope: openid, email, profile
             redirect-uri: http://localhost:3000/callback
         provider:
